@@ -16,4 +16,7 @@ import utilities.FilePaths;
         monochrome = true
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
+        public TestRunner() {
+                System.out.println("✅ TestRunner is being invoked.");
+        }
 }
