@@ -1,3 +1,4 @@
+@ui
 Feature: Travel and Hospitality Industry Page
 
   Background:

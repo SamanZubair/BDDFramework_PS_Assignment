@@ -7,6 +7,7 @@ import utilities.FilePaths;
 @CucumberOptions(
         features = FilePaths.FEATURES_PATH,
         glue = {"steps", "hooks"},
+//        tags = "@ui",
         plugin = {
                 "pretty",
                 "html:target/cucumber-reports.html",
@@ -17,6 +18,6 @@ import utilities.FilePaths;
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
         public TestRunner() {
-                System.out.println("✅ TestRunner is being invoked.");
+                System.out.println("TestRunner is being invoked.");
         }
 }

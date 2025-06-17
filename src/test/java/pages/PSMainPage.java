@@ -1,6 +1,6 @@
 package pages;
 
-import models.ContactFormData;
+import models.ui.ContactFormData;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;

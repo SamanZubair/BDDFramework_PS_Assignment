@@ -1,4 +1,4 @@
-package models;
+package models.ui;
 
 public class ContactFormData {
     private String firstName;

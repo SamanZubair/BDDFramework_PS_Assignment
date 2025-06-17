@@ -1,3 +1,4 @@
+@ui
 Feature: Contact Us Form
 
   Background:

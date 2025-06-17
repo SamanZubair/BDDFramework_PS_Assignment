@@ -1,7 +1,7 @@
-package steps;
+package steps.ui;
 
 import io.cucumber.java.en.*;
-import models.ContactFormData;
+import models.ui.ContactFormData;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import pages.PSMainPage;
