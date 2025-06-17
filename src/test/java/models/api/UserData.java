@@ -1,21 +1,25 @@
 package models.api;
 
+import lombok.Getter;
+import lombok.Setter;
+
 public class UserData{
-    private String name;
-    private String gender;
-    private String email;
-    private String status;
-
     // Getters and Setters
-    public String getName() { return name; }
-    public void setName(String name) { this.name = name; }
+    @Setter
+    @Getter
+    private String name;
+    @Getter
+    @Setter
+    private String gender;
+    @Setter
+    @Getter
+    private String email;
+    @Setter
+    @Getter
+    private String status;
+    @Getter
+    @Setter
+    private Integer id;
 
-    public String getGender() { return gender; }
-    public void setGender(String gender) { this.gender = gender; }
 
-    public String getEmail() { return email; }
-    public void setEmail(String email) { this.email = email; }
-
-    public String getStatus() { return status; }
-    public void setStatus(String status) { this.status = status; }
 }

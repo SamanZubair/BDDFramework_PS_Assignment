@@ -8,4 +8,5 @@ Feature: User API testing
     Given I load payload from file
     When I send a POST request to "/public/v2/users"
     Then the response code should be 201
+    And the response should match the JSON schema "CreateUserSchema.json"
     And verify the response

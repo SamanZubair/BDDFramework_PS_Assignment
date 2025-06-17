@@ -8,14 +8,14 @@ import static readers.ConfigReader.getProperty;
 
 public class BaseApiClient {
 
-    private final String TOKEN = getProperty("token");       // Loaded from config.properties
+    private final String TOKEN = getProperty("token");
 
     public RequestSpecification getBaseRequest() {
-        // Could move to config file
-        String BASE_URI = "https://gorest.co.in";
+
+        String BASE_URI = getProperty("baseURLApi");
         return given()
                 .baseUri(BASE_URI)
-                .header("Authorization", TOKEN)
+                .header("Authorization", "Bearer " + TOKEN)
                 .header("Content-Type", "application/json")
                 .log().all();
     }

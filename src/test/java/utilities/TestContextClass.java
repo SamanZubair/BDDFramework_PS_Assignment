@@ -42,11 +42,4 @@ public class TestContextClass {
         psMainPage = null;
     }
 
-    public UserData userPayload() {
-        return userData;
-    }
-
-    public void setUserPayload(UserData userPayload) {
-        this.userData = userPayload;
-    }
 }

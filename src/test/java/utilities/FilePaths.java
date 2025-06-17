@@ -16,7 +16,6 @@ public class FilePaths {
 
     // Config file path
     public static final String CONFIG_PATH = "src" + File.separator + "test" + File.separator + "resources" + File.separator + "config";
-    public static final String CONFIG_PROPERTIES_FILE = CONFIG_PATH + File.separator + "config.properties";
 
     // Feature files path
     public static final String FEATURES_PATH = "src/test/resources/Features";

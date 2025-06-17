@@ -7,7 +7,7 @@ import utilities.FilePaths;
 @CucumberOptions(
         features = FilePaths.FEATURES_PATH,
         glue = {"steps", "hooks"},
-//        tags = "@ui",
+//        tags = "@api",
         plugin = {
                 "pretty",
                 "html:target/cucumber-reports.html",
